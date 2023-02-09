@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import br.com.gabriel.appmotivation.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(),View.OnClickListener() {
+class MainActivity : AppCompatActivity(),View.OnClickListener {
 
     private lateinit var binding:ActivityMainBinding;
 
@@ -20,6 +20,6 @@ class MainActivity : AppCompatActivity(),View.OnClickListener() {
     }
 
     override fun onClick(view: View) {
-        
+
     }
 }
