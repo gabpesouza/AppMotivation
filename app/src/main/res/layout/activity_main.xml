@@ -21,7 +21,7 @@
             android:layout_height="30dp"
             android:layout_weight="1"
             android:src="@drawable/baseline_cached_24"
-            app:tint="@color/purple_100"/>
+            app:tint="@color/white"/>
         <ImageView
             android:layout_width="0dp"
             android:layout_height="30dp"
@@ -45,7 +45,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Olá, Kotlin!"
+        android:text="@string/boas_vindas"
         android:textColor="@color/black"
         android:gravity="center"
         android:layout_below="@+id/linear_1"
@@ -64,7 +64,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:gravity="center"
-            android:text="Riscos devem ser corridos, porque o maior perigo é não arriscar nada!"
+            android:text="@string/frases_motivacao"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -76,7 +76,8 @@
             android:layout_height="3dp"
             android:background="@color/purple_100"
             android:layout_below="@+id/text_motivation"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:elevation="10dp"/>
 
 
         <Button
@@ -84,10 +85,10 @@
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple_100"
-            android:text="NOVA FRASE"
+            android:text="@string/nova_frase"
             android:layout_below="@+id/view_quotes"
             android:layout_marginTop="170dp"
-            android:layout_centerHorizontal="true"
+            android:layout_centerHorizontal="true"/>
 
     </RelativeLayout>
 

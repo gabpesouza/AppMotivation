@@ -10,16 +10,24 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
     private lateinit var binding:ActivityMainBinding;
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater);
 
-        super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+
+        supportActionBar?.hide();
+
+        binding.buttonNewQuote.setOnClickListener(this);
 
 
     }
 
     override fun onClick(view: View) {
+        if(view.id == R.id.button_new_quote){
+
+        }
 
     }
 }
