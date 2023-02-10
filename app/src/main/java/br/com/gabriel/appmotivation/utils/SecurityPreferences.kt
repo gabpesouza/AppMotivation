@@ -1,4 +1,4 @@
-package br.com.gabriel.appmotivation
+package br.com.gabriel.appmotivation.utils
 
 import android.content.Context
 import android.content.SharedPreferences
